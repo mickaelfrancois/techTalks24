@@ -1,0 +1,23 @@
+//@CleanArch_HostAddress = http://localhost:5066
+@CleanArch_HostAddress = https://localhost:7214
+
+
+GET {{CleanArch_HostAddress}}/books/
+Accept: application/json
+
+###
+
+GET {{CleanArch_HostAddress}}/books/1
+Accept: application/json
+
+###
+
+POST {{CleanArch_HostAddress}}/books/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "Clean Architecture"
+}
+
+###
