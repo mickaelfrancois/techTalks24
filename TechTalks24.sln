@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TechTalks24.BenchmarkDotNet", "BenchmarkDotNet\TechTalks24.BenchmarkDotNet.csproj", "{5EB56926-F53D-4FE5-991F-A0E183840266}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BenchmarkDotNet", "BenchmarkDotNet", "{2E588DEE-228E-47BE-853E-A7B3C73F475B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EB56926-F53D-4FE5-991F-A0E183840266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EB56926-F53D-4FE5-991F-A0E183840266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EB56926-F53D-4FE5-991F-A0E183840266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EB56926-F53D-4FE5-991F-A0E183840266}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5EB56926-F53D-4FE5-991F-A0E183840266} = {2E588DEE-228E-47BE-853E-A7B3C73F475B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6BD7F58-81C3-4B5A-BDFF-522DC874B86D}
+	EndGlobalSection
+EndGlobal
